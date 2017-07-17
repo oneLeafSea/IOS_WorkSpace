@@ -17,7 +17,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("I have add some fields")
+        print("always u are")
         
+        
+    }
+    
+    func wakeupAt()
+    {
+        print("wakeup son")
     }
 
     override func didReceiveMemoryWarning() {
