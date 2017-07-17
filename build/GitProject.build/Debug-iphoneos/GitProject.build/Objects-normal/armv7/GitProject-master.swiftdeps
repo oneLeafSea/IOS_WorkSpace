@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "66276cfaaae9eed88d4ef2a210b0e2ba"
+build_time: [553566672, 442271000]
+inputs:
+  "/Users/fengxueshi/Desktop/GitProject/GitProject/ViewController.swift": [553311943, 0]
+  "/Users/fengxueshi/Desktop/GitProject/GitProject/AppDelegate.swift": [553311943, 0]
