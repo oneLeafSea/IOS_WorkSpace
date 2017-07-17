@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C10GitProject11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
 - "application"
 - "applicationDidEnterBackground"
-- "applicationWillEnterForeground"
+- "applicationWillResignActive"
 - "applicationDidBecomeActive"
 - "applicationWillTerminate"
 - "window"
+- "applicationWillEnterForeground"
 depends-top-level:
 - "UIApplication"
+- !private "BooleanLiteralType"
 - "UIWindow"
 - "UIApplicationLaunchOptionsKey"
-- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
 - "AppDelegate"
 - "Bool"
-- "UIApplicationDelegate"
 - "UIResponder"
 depends-member:
 - ["Ps9AnyObject", "application"]
